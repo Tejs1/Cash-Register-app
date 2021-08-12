@@ -1,6 +1,6 @@
 var billAmount = document.querySelector("#billAmount");
 var nextBtn = document.querySelector(".nextBtn");
-var checkBtn = document.querySelector(".checkBtn");
+var checkBtn = document.querySelector(".calBtn");
 var cashGiven = document.querySelector("#cashGiven");
 var notesRequired = document.querySelector("#notesRequired");
 var errorMessage = document.querySelector("#errorMessage");
@@ -12,7 +12,7 @@ displayBox.style.display = "none";
 
 var numberOfNotes;
 
-const notes = [2000, 500, 100, 20, 10, 5, 1];
+const notes = [2000, 500, 100, 50, 20, 10, 5, 1];
 
 nextBtn.addEventListener("click", checkBillAmount);
 checkBtn.addEventListener("click", calculate);
