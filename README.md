@@ -1,2 +1,3 @@
 # Cash-Register-app
- Help to calulate Change
+
+Help to calulate Change
